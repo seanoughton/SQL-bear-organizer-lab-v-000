@@ -20,8 +20,8 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   #count the color , returns that color with how many of it
-  
-  "SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY COUNT DESC LIMIT 1 "
+
+  "SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY COUNT DESC LIMIT 1"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
